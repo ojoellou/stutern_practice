@@ -1,0 +1,9 @@
+.container{
+    width: 450px;
+    margin: auto;
+    border: 10px, black, ;
+    border-radius: 20px;
+}
+.form-input, .form-group{
+    margin-top: 10px;
+}

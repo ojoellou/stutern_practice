@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=L, initial-scale=1.0">
+    <title>Contact page</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <!--Lesson 1: Building Contact Page Using HTML (31/10/22)
+
+In today’s class, with all the knowledge in html over the last few 
+sessions, we will be building a simple html contact page. We will be 
+using the following HTML Elements in building this contact page
+
+<h1> h1 tag
+<p> Paragraph
+<hr> horizontal
+<form> 
+<a>
+<textarea>
+<input>-->
+
+<!--A SIMPLE HTML CONTACT PAGE-->
+<div class="container">
+    <h1>Contact form</h1>
+    <p>Please fill in your contact details below</p>
+    <hr>
+
+    <form action="" method="post">
+        <!-- 
+            name
+            email address
+            message
+            submit
+         -->
+        <div class="form-group">
+            <label for="name">Your Name</label>
+            <div class="form-input">
+                <input type="text" id="name" name="name" />
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label for="email">Your Email address</label>
+            <div class="form-input">
+                <input type="email" id="email" name="email" />
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label for="message">Your message</label>
+            <div class="form-input">
+                <textarea name="form-message" id="form-message" cols="30" rows="10"></textarea>
+            </div>
+        </div>
+    
+        <div> 
+            <button>Send message</button>
+        </div>
+    </form>
+</div>
+
+</body>
+</html>
